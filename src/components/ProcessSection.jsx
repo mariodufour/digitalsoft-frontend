@@ -10,7 +10,7 @@ const ProcessSection = () => {
         </h2>
       </div>
 
-      {/* Grilla Asimétrica (Bento Grid) */}
+      {/* Grilla Asimétrica */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
 
         {/* Bloque 1 (Ocupa 2 columnas en PC) */}

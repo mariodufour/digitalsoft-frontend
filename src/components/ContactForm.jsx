@@ -8,7 +8,7 @@ const ContactForm = () => {
     contactName: '',
     phone: '',
     email: '',
-    serviceCategoryId: 1, // Por defecto seleccionamos el servicio 1 (Página web)
+    serviceCategoryId: 1,
     clientMessage: ''
   });
 
@@ -26,7 +26,7 @@ const ContactForm = () => {
     setStatus('loading');
 
     try {
-      // Apuntamos al endpoint que armaste en Java
+      // Apuntamos al endpoint en Java
       await axios.post('http://localhost:8080/api/requests', formData);
       setStatus('success');
       // Limpiamos el formulario tras el éxito

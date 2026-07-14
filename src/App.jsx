@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-300 font-sans selection:bg-emerald-500/30">
 
-      {/* --- CABECERA (Header Terminal Style) --- */}
+      {/* --- CABECERA --- */}
       <header className="flex justify-between items-center px-8 py-5 border-b border-zinc-900/80 backdrop-blur-md sticky top-0 z-50">
         <div className="flex items-center gap-3">
           <CommandLineIcon className="h-7 w-7 text-emerald-400" />
@@ -36,10 +36,10 @@ function App() {
         </div>
       </header>
 
-      {/* --- SECCIÓN PRINCIPAL (Hero Terminal Premium) --- */}
+      {/* --- SECCIÓN PRINCIPAL --- */}
       <main className="relative flex flex-col items-center justify-center text-center px-4 pt-28 pb-20 overflow-hidden">
 
-        {/* Resplandor de fondo (Efecto ambiental) */}
+        {/* Resplandor de fondo */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-900/10 blur-[120px] rounded-full pointer-events-none"></div>
 
         {/* Etiqueta superior */}
@@ -60,7 +60,7 @@ function App() {
           Desarrollo de <strong className="text-zinc-200 font-medium">sistemas web y automatizaciones</strong> de alto rendimiento para negocios que buscan operar con precisión.
         </p>
 
-        {/* Botón CTA (Estilo botón de ejecución) */}
+        {/* Botón CTA */}
         <a
           href="https://wa.me/5493496510291?text=Hola!%20Vengo%20desde%20la%20página%20de%20Digital%20Soft%20y%20me%20gustaría%20hacer%20una%20consulta."
           target="_blank"
@@ -140,7 +140,7 @@ function App() {
 
       </main>
 
-      {/* --- GRILLA DE SERVICIOS (Temporalmente mantenemos la anterior, luego la rediseñamos) --- */}
+      {/* --- GRILLA DE SERVICIOS --- */}
       <section id="servicios" className="max-w-5xl mx-auto px-6 pb-24 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Tarjeta 1 */}

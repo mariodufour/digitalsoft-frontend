@@ -22,7 +22,6 @@ const PortfolioBanner = () => {
             </div>
           </div>
 
-          {/* Botón hacia tu WordPress */}
           <a
             href="https://mariodufour.rf.gd"
             target="_blank"
