@@ -1,16 +1,27 @@
-# React + Vite
+# Digital Soft - Frontend 💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interfaz de usuario (UI) oficial para los servicios informáticos y de desarrollo de **Digital Soft**.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías Utilizadas
+* **Librería Core:** React.js
+* **Estilos y Maquetación:** Tailwind CSS, HTML5, CSS3
+* **Build Tool:** Vite
+* **Íconos:** Devicon / SVG Nativos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Características Principales
+* **Arquitectura de Componentes:** Código modular y reutilizable para facilitar el escalado y mantenimiento.
+* **Diseño Responsivo (Mobile First):** Adaptación perfecta desde dispositivos móviles hasta monitores de escritorio (Grid/Flexbox).
+* **UI/UX Interactiva:** Efectos de resplandor, transiciones de color (hover states) y grillas de tecnologías optimizadas visualmente.
 
-## React Compiler
+## 🛠️ Instalación y Uso Local
+1. Clonar el repositorio:
+   ```bash
+   git clone [https://github.com/mariodufour/digitalsoft-frontend.git](https://github.com/mariodufour/digitalsoft-frontend.git)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   Instalar las dependencias:
+   Bash
+   npm install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   Ejecutar el servidor de desarrollo:
+   Bash:
+   npm run dev
