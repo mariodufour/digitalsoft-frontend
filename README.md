@@ -19,9 +19,7 @@ Interfaz de usuario (UI) oficial para los servicios informáticos y de desarroll
    git clone [https://github.com/mariodufour/digitalsoft-frontend.git](https://github.com/mariodufour/digitalsoft-frontend.git)
 
    Instalar las dependencias:
-   Bash
    npm install
 
    Ejecutar el servidor de desarrollo:
-   Bash
    npm run dev
