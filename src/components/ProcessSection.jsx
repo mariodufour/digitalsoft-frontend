@@ -4,7 +4,7 @@ const ProcessSection = () => {
   return (
     <section className="max-w-5xl mx-auto px-6 py-24 relative z-10">
       <div className="mb-12">
-        <span className="text-xs font-mono text-emerald-400 uppercase tracking-widest">&gt;_ Metodología</span>
+        <span className="text-lg font-mono text-emerald-400 uppercase tracking-widest">&gt;_ Metodología</span>
         <h2 className="text-3xl md:text-5xl font-bold text-white mt-4">
           Arquitectura en <span className="text-zinc-600">4 Fases</span>
         </h2>

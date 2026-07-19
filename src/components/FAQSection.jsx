@@ -27,7 +27,7 @@ const FAQSection = () => {
   return (
     <section className="max-w-3xl mx-auto px-6 py-24 relative z-10">
       <div className="mb-12 text-center">
-        <span className="text-xs font-mono text-emerald-400 uppercase tracking-widest">/ Consultas Frecuentes</span>
+        <span className="text-base font-mono text-emerald-400 uppercase tracking-widest">/ Consultas Frecuentes</span>
         <h2 className="text-3xl font-bold text-white mt-4">Transparencia Operativa</h2>
       </div>
 

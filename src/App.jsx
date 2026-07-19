@@ -15,7 +15,7 @@ import PortfolioBanner from './components/PortfolioBanner';
 
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-300 font-sans selection:bg-emerald-500/30">
+    <div className="min-h-screen bg-gradient-to-br from-green-950 via-zinc-950 to-zinc-800 text-zinc-300 font-sans selection:bg-emerald-500/30">
 
       {/* --- CABECERA --- */}
       <header className="flex justify-between items-center px-8 py-5 border-b border-zinc-900/80 backdrop-blur-md sticky top-0 z-50">
@@ -45,7 +45,7 @@ function App() {
         {/* Etiqueta superior */}
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-zinc-900/60 border border-zinc-800 mb-8 z-10">
           <CodeBracketIcon className="h-4 w-4 text-zinc-400" />
-          <span className="text-xs font-mono text-zinc-400 uppercase tracking-widest">Desarrollo de Software a Medida</span>
+          <span className="text-base font-mono text-zinc-400 uppercase tracking-widest">Desarrollo de Software a Medida</span>
         </div>
 
         {/* Título Principal */}
