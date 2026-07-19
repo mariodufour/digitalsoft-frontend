@@ -23,5 +23,5 @@ Interfaz de usuario (UI) oficial para los servicios informáticos y de desarroll
    npm install
 
    Ejecutar el servidor de desarrollo:
-   Bash:
+   Bash
    npm run dev
