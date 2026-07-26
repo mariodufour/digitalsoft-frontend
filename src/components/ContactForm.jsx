@@ -27,7 +27,7 @@ const ContactForm = () => {
 
     try {
       // Apuntamos al endpoint en Java
-      await axios.post('http://localhost:8080/api/requests', formData);
+      await axios.post('https://digitalsoft-backend-production.up.railway.app/api/requests', formData);
       setStatus('success');
       // Limpiamos el formulario tras el éxito
       setFormData({
