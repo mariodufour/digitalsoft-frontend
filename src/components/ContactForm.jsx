@@ -28,14 +28,26 @@ const ContactForm = () => {
     try {
       // Apuntamos al endpoint en Java
       await axios.post('https://digitalsoft-backend-production.up.railway.app/api/requests', formData);
+
       setStatus('success');
       // Limpiamos el formulario tras el éxito
       setFormData({
         businessName: '', contactName: '', phone: '', email: '', serviceCategoryId: 1, clientMessage: ''
       });
+
     } catch (error) {
       console.error("Error al enviar la solicitud:", error);
       setStatus('error');
+
+      // 1. Extraemos el mensaje amigable que mandó Spring Boot
+      const mensajeBackend = error.response?.data?.error;
+
+      // 2. Si el backend nos mandó el mensaje, lo mostramos. Si se cayó el servidor por completo, mostramos uno genérico.
+      if (mensajeBackend) {
+          alert(mensajeBackend); // Esto mostrará: "Tuvimos un inconveniente temporal..."
+      } else {
+          alert("No pudimos conectar con el servidor. Revisá tu conexión a internet o intentá más tarde.");
+      }
     }
   };
 
