@@ -9,18 +9,22 @@ const PortfolioBanner = () => {
         <div className="absolute inset-0 bg-zinc-950/90 backdrop-blur-xl"></div>
 
         {/* Contenido */}
-        <div className="relative flex flex-col md:flex-row items-center justify-between p-8 md:p-10 gap-6">
-          <div className="flex items-center gap-6">
-            <div className="bg-emerald-500/10 p-4 rounded-full border border-emerald-500/20">
-              <BriefcaseIcon className="h-8 w-8 text-emerald-400" />
-            </div>
-            <div className="text-center md:text-left">
-              <h3 className="text-2xl font-bold text-white mb-1">Proyectos Implementados</h3>
-              <p className="text-zinc-400 text-sm font-mono tracking-wide">
-                Explorá mis desarrollos subidos a mi página personal.
-              </p>
-            </div>
-          </div>
+            <div className="relative flex flex-col md:flex-row items-center justify-between p-8 md:p-10 gap-6">
+
+              <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
+
+                <div className="bg-emerald-500/10 p-4 rounded-full border border-emerald-500/20">
+                  <BriefcaseIcon className="h-8 w-8 text-emerald-400" />
+                </div>
+
+                <div className="text-center md:text-left">
+                  <h3 className="text-2xl font-bold text-white mb-1">Proyectos Implementados</h3>
+                  <p className="text-zinc-400 text-sm font-mono tracking-wide">
+                    Explorá mis desarrollos subidos a mi página personal.
+                  </p>
+                </div>
+
+              </div>
 
           <a
             href="https://mariodufour.rf.gd"

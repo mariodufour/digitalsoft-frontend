@@ -43,13 +43,13 @@ function App() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-900/10 blur-[120px] rounded-full pointer-events-none"></div>
 
         {/* Etiqueta superior */}
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-zinc-900/60 border border-zinc-800 mb-8 z-10">
+        <div className="inline-flex items-center gap-2 px-3 py-1 md:px-4 md:py-2 rounded-md bg-zinc-900/60 border border-zinc-800 mb-8 z-10">
           <CodeBracketIcon className="h-4 w-4 text-zinc-400" />
-          <span className="text-base font-mono text-zinc-400 uppercase tracking-widest">Desarrollo de Software a Medida</span>
+          <span className="text-xs md:text-base font-mono text-zinc-400 uppercase tracking-wide md:tracking-widest">Desarrollo de Software a Medida</span>
         </div>
 
         {/* Título Principal */}
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 text-white z-10 relative">
+        <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight leading-tight mb-8 text-white z-10 relative">
           Transformamos tus ideas en <br className="hidden md:block" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-600">
             soluciones escalables
